@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document version="1">
+    <!-- Основные настройки запуска -->
+    <run>
+        <daemon>false</daemon>
+    </run>
+    
+    <httpserver>
+        <port>50080</port>
+    </httpserver>
+</document>
+
+
+
+
