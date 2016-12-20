@@ -52,6 +52,7 @@ func viewHandler(w http.ResponseWriter, r *http.Request) {
 		http.Redirect(w, r, "/edit/" + title, http.StatusFound)
 		return
 	}
+	//p := &Page{Title: title, Body: []byte("body")}
 
 	//fmt.Fprintf(w, "<h1>%s</h1><div>%s</div>", p.Title, p.Body)
 	renderTemplate(w, "view", p)
